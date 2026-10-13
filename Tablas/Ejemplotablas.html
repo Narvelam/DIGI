@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="utf-8">
+    <title>Ejemplo tablas</title>
+    <style>
+        *{
+            text-decoration: center;
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+        }
+        thead {
+            background-color: #ededed;
+        }
+        tbody th{
+            background-color: #5ba8f3;
+            text-align: left;
+        }
+        tfoot th{
+            background-color: #5ba8f3;
+            text-align: left;
+        }
+        tbody tr:nth-child(odd) td{
+            background-color: sandybrown;
+
+        }
+        td,th{
+            border: 1px solid black;
+            padding: 5px;
+
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1>Ejemplo tablas</h1>
+<table>
+
+    <thead>
+    <tr>
+        <th>Cambio</th>
+        <th>Compra</th>
+        <th>Venta</th>
+        <th>Maximo</th>
+        <th>Minimo</th>
+    </tr>
+    </thead>
+    <tfoot>
+    <tr>
+        <th colspan="1"><img src="yen.png" alt="">Yen/Euro</th>
+        <td>0.6711</td>
+        <td>0.6705</td>
+        <td>0.6676</td>
+        <td>0.6713</td>
+    </tr>
+    </tfoot>
+    <tbody>
+    <tr>
+        <th><img src="euro.png">Euro/Dolar</th>
+        <td>1.2524</td>
+        <td>1.2527</td>
+        <td>1.2539</td>
+        <td>1.2488</td>
+    </tr>
+    <tr>
+        <th><img src="dolar.png">Dolar/Yen</th>
+        <td>119.01</td>
+        <td>119.05</td>
+        <td>119.82</td>
+        <td>119.82</td>
+    </tr>
+    <tr>
+        <th><img src="libra.png">Libra/Dolar</th>
+        <td>1.8606</td>
+        <td>1.8611</td>
+        <td>1.8651</td>
+        <td>1.8522</td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
